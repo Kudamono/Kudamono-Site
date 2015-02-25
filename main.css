@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+* {
+  margin:0px;
+  padding:0px;
+  font-family:'Open Sans', sans-serif;
+}
+body {
+  /* BACKGROUND FROM: subtlepatterns.com */
+  background:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+}
+
+.center {
+  max-width:900px;
+  margin:0 auto;
+}
+.pageTitle {
+  color:white;
+  margin-left:16px;
+}
+.box {
+  background:white;
+  background:rgba(255, 255, 255, 0.8);
+  margin:4px;
+  border-top:3px solid #D60F3A;
+  padding:5px 15px;
+}
+div > .box {
+  margin-top:16px;
+}
+.box.red {
+  border-top:3px solid #D60F3A;
+}
+.box.purple {
+  border-top-color:#8317AD;
+}
+.box.blue {
+  border-top-color:#3116DE;
+}
+.box.lightBlue {
+  border-top-color:#0E8FC2;
+}
+.box.green {
+  border-top-color:#0EC23E;
+}
+.box.yellow {
+  border-top-color:#CFCF13;
+}
+.footer {
+  color:white;
+  margin:16px 0px 20px 18px;
+}
