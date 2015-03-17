@@ -1,52 +1,54 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-
-* {
-  margin:0px;
-  padding:0px;
-  font-family:'Open Sans', sans-serif;
-}
 body {
-  /* BACKGROUND FROM: subtlepatterns.com */
-  background:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+	font-family: sans-serif;
+	/* The background image is temporary and will be customizable */
+	background-image: url("http://i.cubeupload.com/5nWvbl.jpg");
+	background-repeat: no-repeat;
+	margin:0px;
 }
 
-.center {
-  max-width:900px;
-  margin:0 auto;
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	display:inline-block; 
+	vertical-align:middle;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
 }
-.pageTitle {
-  color:white;
-  margin-left:16px;
+
+#navlist {
+	margin:0px;
 }
-.box {
-  background:white;
-  background:rgba(255, 255, 255, 0.8);
-  margin:4px;
-  border-top:3px solid #D60F3A;
-  padding:5px 15px;
+
+nav {
+	width:100%;
+	background-color:rgba(0,0,0,0.4);
+	margin:0px;
 }
-div > .box {
-  margin-top:16px;
+
+.nav-item {
+	color: white;
+	text-decoration: none;
+	cursor:pointer;
 }
-.box.red {
-  border-top:3px solid #D60F3A;
+
+#footer {
+	display:inline-block; 
+	vertical-align:bottom;
+	color:white;
 }
-.box.purple {
-  border-top-color:#8317AD;
+
+#footer {
+	position:absolute;
+ 	bottom:0;
+ 	width:100%;
+ 	background-color:rgba(0,0,0,0.7);
+	padding-right:0px;
+	padding-top:5px;
+	padding-bottom:5px;
 }
-.box.blue {
-  border-top-color:#3116DE;
-}
-.box.lightBlue {
-  border-top-color:#0E8FC2;
-}
-.box.green {
-  border-top-color:#0EC23E;
-}
-.box.yellow {
-  border-top-color:#CFCF13;
-}
-.footer {
-  color:white;
-  margin:16px 0px 20px 18px;
+
+.footer-p {
+	margin-left:20px;
+	line-height:0px;
 }
